@@ -63,7 +63,7 @@ export default {
             this.$refs.loginFormRef.validate(async vaild => {
                 if (!vaild) return;
                 // 解构赋值
-                const { data: res } = await this.$http.post('login', this.form)
+                const { data: res } = await this.$http.post("login", this.form)
                 if (res.meta.status !== 200) {
                     return this.$message.error("登陆失败")
                 }

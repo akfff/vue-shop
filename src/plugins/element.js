@@ -1,10 +1,16 @@
 import Vue from 'vue'
-import { Button } from 'element-ui'
+// import { Button } from 'element-ui'
 // 按需导入
-import { Form, FormItem } from "element-ui";
-import { Input } from "element-ui";
+import {
+    Form,
+    FormItem,
+    Button,
+    Input,
+    Message
+} from "element-ui";
+// import { Input } from "element-ui";
 // 导入弹框组件
-import { Message } from "element-ui";
+// import { Message } from "element-ui";
 
 
 Vue.use(Button)
